@@ -5,6 +5,7 @@ Pod::Spec.new do |s|
 	s.license = 'MIT'
 	s.homepage = 'https://github.com/KittenYang/SwiftUIOverlayContainer'
 	s.source = { :git => 'https://github.com/KittenYang/SwiftUIOverlayContainer.git', :tag => "#{s.version}" }
+	spec.authors = { 'KittenYang' => 'imkittenyang@gmail.com' }
 	s.source_files = 'Sources/**/*.swift'
 	s.swift_version = '5.4'
 	s.macos.deployment_target = '10.11'
